@@ -1,0 +1,128 @@
+
+#profile-content {
+	font-family: Montserrat;
+	background: #393d3f;
+	z-index: 1;
+	min-width: 350px;
+	min-height: 400px;
+	vertical-align: top;
+	top: calc(10% + 70px);
+	position: absolute;
+	left: 50%;
+	margin-left: calc(-40% / 2);
+	border: 5px solid #393d3f;
+	box-shadow: -10px 10px rgba(0,0,0,0.30);
+	width: 40%;
+	height: 60%;
+}
+
+.profile-item {
+	position: relative;
+}
+
+
+#profile-info {
+	background:  #546a7b;
+	height: 40%;
+	text-align: center;
+	min-height: 200px;
+}
+
+.profile-info-item {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+#profile-info-left, #profile-info-right {
+	min-width: 75px;
+	height: calc(100% - 100px);
+	color: white;
+	font-size: 75%;
+	padding: 100px 0 0 0;
+	width: 10%;
+}
+
+
+#profile-info-middle {
+	min-width: 150px;
+	text-align: center;
+	width: 50%;
+}
+
+#profile-info-pic-container {
+	height: 65%;
+	padding: 5px 0 0 0;
+	min-height: 100px;
+	min-width: 100px;
+}
+
+#profile-info-pic {
+	width: 50%;
+	border-radius: 10%;
+	border: 5px solid #c6c5b9;
+	max-height: 120px;
+}
+
+#profile-info-name-container {
+	height: calc(25% - 20px);
+	color: white;
+	padding-top: 3%;
+}
+
+#profile-info-name {
+	display: inline;
+	padding: 1% 13%;
+	border-radius: 10px;
+	background: rgba(198, 197, 185, 0.75);
+	font-size: 120%;
+}
+
+#profile-info-follow-container {
+	height: calc(10% + 5px);
+	color: white;
+	font-size: 80%;
+	padding: 5px 0;
+	font-style: italic;
+}
+
+#profile-feed-container {
+	background: #393d3f;
+	height: calc(60% - 8px);
+	max-height: calc(60% - 50px);
+	border-top: 5px solid lightgrey;
+	overflow: scroll;
+}
+
+#profile-feed {
+	height: 100%;
+}
+
+table.profile-feed-item {
+    width: 95%;
+    margin: 7px auto;
+    background: teal;
+    color: white;
+    padding: 5px 10px;
+    font-size: 80%;
+    border-radius: 5px;
+		color: lightgrey;
+}
+
+.profile-feed-item-date {
+	float: right;
+}
+
+.emphasis {
+	font-weight: bold;
+	color: white;
+}
+
+#exit {
+	position: fixed;
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 20px;
+	width: 20px;
+}
