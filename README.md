@@ -1,3 +1,3 @@
 # SpotShare
 
-Software Development -- 201 Group Project
+Software Development -- CSCI201 Group Project
